@@ -1,0 +1,22 @@
+{
+  "name": "fastify-request-type",
+  "version": "1.0.0",
+  "description": "fastify の request object の中身を見る",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ojisan-toybox/fastify-request-type.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ojisan-toybox/fastify-request-type/issues"
+  },
+  "homepage": "https://github.com/ojisan-toybox/fastify-request-type#readme",
+  "dependencies": {
+    "fastify": "^3.22.1"
+  }
+}
