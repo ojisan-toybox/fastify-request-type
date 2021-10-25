@@ -3,6 +3,7 @@ import fastify from "fastify";
 const server = fastify();
 
 server.get("/ping", async (request, reply) => {
+  console.log("raw", request.raw);
   return "pong\n";
 });
 
